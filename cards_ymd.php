@@ -12,10 +12,14 @@ function generateCards()
 
     shuffle($nameForCards);
 
+    $cardsString = '';
+
     for ($i = 0; $i < 12; $i++) {
-        echo '<input type="checkbox" id="card-' . $i . '"/>';
-        echo '<label for="card-' . $i . '" data-value="' . $nameForCards[$i] . '"><span>' . $nameForCards[$i] . '</span></label>';
+        $cardsString .= '<input type="checkbox" id="card-' . $i . '"/>';
+        $cardsString .= '<label for="card-' . $i . '" data-value="' . $nameForCards[$i] . '"><span>' . $nameForCards[$i] . '</span></label>';
     }
+
+    return $cardsString;
 }
 
 ?>
@@ -85,7 +89,7 @@ function generateCards()
     <body>
         <div class="wrapper">
             <div class="cards">
-                <?php generateCards(); ?>
+                <?= generateCards(); ?>
             </div>
         </div>
     </body>
