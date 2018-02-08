@@ -38,10 +38,15 @@ function generateCards()
     $cardsString = '';
 
     for ($i = 0; $i < $count; $i++) {
+        $dataValue = is_array($nameForCards[$i]) ? $nameForCards[$i][0] : $nameForCards[$i];
+        $value = is_array($nameForCards[$i]) ? $nameForCards[$i][1] : $nameForCards[$i];
+
         $cardsString .= '<input type="checkbox" id="card-' . $i . '"/>';
-        $cardsString .= '<label for="card-' . $i . '" data-value="' .
-            (is_array($nameForCards[$i]) ? $nameForCards[$i][0] : $nameForCards[$i]) . '"><span>' .
-            (is_array($nameForCards[$i]) ? $nameForCards[$i][1] : $nameForCards[$i]) . '</span></label>';
+        $cardsString .= '
+            <label for="card-' . $i . '" data-value="' . $dataValue . '">
+            <span>' . $value . '</span>
+            </label>'
+        ;
     }
 
     return $cardsString;
