@@ -6,7 +6,8 @@
  * Time: 11:28
  */
 
-function fib($n) {
+function fib($n)
+{
     $a = 0;
     $b = 1;
 
@@ -14,11 +15,10 @@ function fib($n) {
 
     for ($i = 1; $i <= $n; $i++) {
         $c = $a + $b;
-
-        $fibArr[] = $c;
-
         $a = $b;
         $b = $c;
+
+        $fibArr[] = $c;
     }
 
     return $fibArr;
