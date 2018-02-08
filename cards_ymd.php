@@ -6,17 +6,42 @@
  * Time: 11:28
  */
 
+function fib($n) {
+    $a = 0;
+    $b = 1;
+
+    $fibArr = [$a, $b];
+
+    for ($i = 1; $i <= $n; $i++) {
+        $c = $a + $b;
+
+        $fibArr[] = $c;
+
+        $a = $b;
+        $b = $c;
+    }
+
+    return $fibArr;
+}
+
 function generateCards()
 {
-    $nameForCards = range(1, 52);
+    $count = 13;
 
-    shuffle($nameForCards);
+    //Статически заданные значение.
+    $nameForCards = [0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, '?', ['c', "\u{2615}"]];
+
+    //Динамическая генерация
+    /*$nameForCards = fib($count - 4);
+    array_push($nameForCards, '?', ['c', "\u{2615}"]);*/
 
     $cardsString = '';
 
-    for ($i = 0; $i < 12; $i++) {
+    for ($i = 0; $i < $count; $i++) {
         $cardsString .= '<input type="checkbox" id="card-' . $i . '"/>';
-        $cardsString .= '<label for="card-' . $i . '" data-value="' . $nameForCards[$i] . '"><span>' . $nameForCards[$i] . '</span></label>';
+        $cardsString .= '<label for="card-' . $i . '" data-value="' .
+            (is_array($nameForCards[$i]) ? $nameForCards[$i][0] : $nameForCards[$i]) . '"><span>' .
+            (is_array($nameForCards[$i]) ? $nameForCards[$i][1] : $nameForCards[$i]) . '</span></label>';
     }
 
     return $cardsString;

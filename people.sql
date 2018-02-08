@@ -27,4 +27,4 @@ CREATE TABLE `user_address` (
 SELECT `u`.*, `a`.* FROM `user` `u`
 JOIN `user_address` `ua` ON (`ua`.`user_id` = `u`.`id`)
 JOIN `address` `a` ON (`ua`.`address_id` = `a`.`id`)
-WHERE TIMESTAMPDIFF(YEAR,`u`.`birth_name`,CURDATE()) = 22;
+WHERE TIMESTAMPDIFF(YEAR,`u`.`birth_name`,CURDATE()) >= 22;

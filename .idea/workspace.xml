@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47a54ed-cafc-406c-8b22-ac2250173275" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cards_ymd.php" afterPath="$PROJECT_DIR$/cards_ymd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/people.sql" afterPath="$PROJECT_DIR$/people.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,14 +17,25 @@
       <file leaf-file-name="cards_ymd.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cards_ymd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1438">
-              <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+            <state relative-caret-position="510">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
-                <marker date="1518004663769" expanded="true" signature="496:2515" ph="..." />
-                <marker date="1518004663769" expanded="true" signature="507:2348" ph="..." />
-                <marker date="1518004663769" expanded="true" signature="2359:2413" ph="..." />
-                <marker date="1518004663769" expanded="true" signature="2359:2507" ph="..." />
-                <marker date="1518004663769" expanded="true" signature="2421:2480" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="1051:3070" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="1062:2903" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="1078:2891" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="1101:1147" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="1167:1320" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="1346:1814" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="1848:2032" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2065:2296" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2328:2380" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2405:2679" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2720:2766" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2823:2875" ph="{...}" />
+                <marker date="1518050967429" expanded="true" signature="2914:2934" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="2914:2968" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="2914:3062" ph="..." />
+                <marker date="1518050967429" expanded="true" signature="2976:3035" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,8 +44,8 @@
       <file leaf-file-name="people.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/people.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="432">
+              <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -124,12 +134,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517908813884</updated>
-      <workItem from="1517908824809" duration="14642000" />
+      <workItem from="1517908824809" duration="21753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14642000" />
+    <option name="totallyTimeSpent" value="21753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -167,22 +177,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/people.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="432">
+          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cards_ymd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1438">
-          <caret line="91" column="20" lean-forward="false" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        <state relative-caret-position="510">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
-            <marker date="1518004663769" expanded="true" signature="496:2515" ph="..." />
-            <marker date="1518004663769" expanded="true" signature="507:2348" ph="..." />
-            <marker date="1518004663769" expanded="true" signature="2359:2413" ph="..." />
-            <marker date="1518004663769" expanded="true" signature="2359:2507" ph="..." />
-            <marker date="1518004663769" expanded="true" signature="2421:2480" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="1051:3070" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="1062:2903" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="1078:2891" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="1101:1147" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="1167:1320" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="1346:1814" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="1848:2032" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2065:2296" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2328:2380" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2405:2679" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2720:2766" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2823:2875" ph="{...}" />
+            <marker date="1518050967429" expanded="true" signature="2914:2934" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="2914:2968" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="2914:3062" ph="..." />
+            <marker date="1518050967429" expanded="true" signature="2976:3035" ph="..." />
           </folding>
         </state>
       </provider>
